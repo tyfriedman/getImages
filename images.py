@@ -34,7 +34,7 @@ CPUS        = 1
 
 def usage(exit_status: int=0) -> None:
     ''' Print usgae message and exit. '''
-    print(f'''Usage: miles.py [-d DESTINATION -n CPUS -f FILETYPES] URL
+    print(f'''Usage: images.py [-d DESTINATION -n CPUS -f FILETYPES] URL
 
 Crawl the given URL for the specified FILETYPES and download the files to the
 DESTINATION folder using CPUS cores in parallel.
