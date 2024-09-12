@@ -2,7 +2,7 @@ Ty Friedman - images.py
 
 The images.py program scans websites for images and downloads them to a specified location.
 
-Usage: miles.py [-d DESTINATION -n CPUS -f FILETYPES] URL
+Usage: images.py [-d DESTINATION -n CPUS -f FILETYPES] URL
 
 Crawl the given URL for the specified FILETYPES and download the files to the
 DESTINATION folder using CPUS cores in parallel.
